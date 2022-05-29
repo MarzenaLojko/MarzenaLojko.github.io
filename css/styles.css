@@ -52,12 +52,16 @@ body {
   color: black;
 }
 .button {
+  display: inline-block;
   color: white;
   background-color: #2196f3;
   cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
 }
 .description {
   color: #757575;
+  width: 270px;
 }
 
 h3 {
@@ -84,18 +88,54 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hrefTopColorRight{
+.hrefTopColorRight {
   color: #757575;
 }
 .SectionOurTeam {
-  background-color:#F5F4FA
+  background-color: #f5f4fa;
 }
 .secondColorUp {
-  color: black
+  color: black;
 }
 .secondColorDown {
-  color: white
+  color: white;
 }
-.container{
+li {
+  display: inline-block;
+  /* padding: 10px; */
+  margin-right: 10px;
+}
+.oneLineNav {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 20px;
+}
+.oneLineAddress {
+  display: inline-block;
+  padding-right: 30px;
+}
+.NavElementToRight {
+  position: absolute;
+  right: 0%;
+}
+p {
+  word-wrap: break-word;
+}
+.container {
   width: 1200px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.button-div-center {
+  text-align: center;
+}
+header{
+  border-bottom: 1px solid #ECECEC ;
+}
+
