@@ -1,0 +1,101 @@
+.logoUp {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logoDown {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  color: #2196f3;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 44px;
+  text-align: center;
+}
+.backgroundColor {
+  background-color: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.button {
+  color: white;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.description {
+  color: #757575;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+.button2:hover {
+  color: white;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.descriptionHeadSize {
+  font-size: 18px;
+}
+.descriptionSize {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #2f303a;
+  color: white;
+}
+.hrefBottomColor {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hrefTopColorRight{
+  color: #757575;
+}
+.SectionOurTeam {
+  background-color:#F5F4FA
+}
+.secondColorUp {
+  color: black
+}
+.secondColorDown {
+  color: white
+}
+.container{
+  width: 1200px;
+}
