@@ -35,9 +35,6 @@ a {
 a:hover {
   color: #2196f3;
 }
-li {
-  list-style-type: none;
-}
 h1 {
   text-transform: uppercase;
   color: white;
@@ -58,6 +55,10 @@ body {
   cursor: pointer;
   text-align: center;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
 }
 .description {
   color: #757575;
@@ -101,8 +102,8 @@ footer {
   color: white;
 }
 li {
+  list-style-type: none;
   display: inline-block;
-  /* padding: 10px; */
   margin-right: 10px;
 }
 .oneLineNav {
@@ -124,10 +125,9 @@ p {
 }
 .container {
   width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin: 0 auto;
 }
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -135,7 +135,65 @@ p {
 .button-div-center {
   text-align: center;
 }
-header{
-  border-bottom: 1px solid #ECECEC ;
+header {
+  border-bottom: 1px solid #ececec;
 }
 
+.liTeam {
+  display: inline-block;
+}
+.imgteam {
+  width: 270px;
+  height: 260px;
+}
+.Teambox {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
+}
+.aNav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.banerText {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.portfolioBox {
+  box-sizing: border-box;
+
+  width: 370px;
+  height: 404px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.portfolioButton {
+  
+  width: 93px;
+  height: 38px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  
+}
