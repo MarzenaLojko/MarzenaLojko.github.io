@@ -1,31 +1,23 @@
 .logoUp {
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 .logoDown {
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 a {
@@ -54,7 +46,6 @@ body {
   background-color: #2196f3;
   cursor: pointer;
   text-align: center;
-  margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 200px;
@@ -64,7 +55,6 @@ body {
   color: #757575;
   width: 270px;
 }
-
 h3 {
   font-size: 36px;
   text-align: center;
@@ -80,7 +70,6 @@ h3 {
 .descriptionSize {
   font-size: 16px;
 }
-
 footer {
   background-color: #2f303a;
   color: white;
@@ -88,7 +77,6 @@ footer {
 .hrefBottomColor {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .hrefTopColorRight {
   color: #757575;
 }
@@ -104,21 +92,12 @@ footer {
 li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 10px;
 }
 .oneLineNav {
   display: inline-block;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-right: 20px;
-}
-.oneLineAddress {
-  display: inline-block;
-  padding-right: 30px;
 }
 .NavElementToRight {
-  position: absolute;
-  right: 0%;
+  float: right;
 }
 p {
   word-wrap: break-word;
@@ -131,14 +110,12 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .button-div-center {
   text-align: center;
 }
 header {
   border-bottom: 1px solid #ececec;
 }
-
 .liTeam {
   display: inline-block;
 }
@@ -148,8 +125,7 @@ header {
 }
 .Teambox {
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   height: 368px;
@@ -171,19 +147,14 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
 .portfolioBox {
   box-sizing: border-box;
-
   width: 370px;
   height: 404px;
-
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-
 .portfolioButton {
-  
   width: 93px;
   height: 38px;
   background: #F5F4FA;
@@ -195,5 +166,4 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  
 }
