@@ -63,7 +63,7 @@
   justify-content: space-between;
   margin-left: -46px; */
   display: flex;
-  margin-left: -30px;
+  /* margin-left: -30px; */
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -133,11 +133,11 @@ h3 {
 
 .description-ul {
   display: flex;
-  margin-left: -30px;
+  /* margin-left: -30px; */
   list-style-type: none;
   flex-wrap: wrap;
   padding-bottom: 94px;
-  margin-bottom: -30px;
+  /* margin-bottom: -30px; */
   justify-content: space-between;
 }
 
@@ -176,8 +176,8 @@ h3 {
 .we-do-ul {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -30px;
-  margin-left: -30px;
+  /* margin-bottom: -30px;
+  margin-left: -30px; */
   justify-content: space-between;
 }
 
@@ -191,6 +191,7 @@ h3 {
 footer {
   background-color: #2f303a;
   color: white;
+  height: 252px;
 }
 
 .hrefBottomColor {
@@ -255,8 +256,8 @@ header {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: -30px;
+  /* margin-left: -30px;
+  margin-bottom: -30px; */
   justify-content: space-between;
 }
 
@@ -306,10 +307,11 @@ header {
   justify-content: center;
   list-style-type: none;
   flex-wrap: wrap;
-  margin-left: -8px;
-  margin-bottom: -8px;
+  /* margin-left: -8px; */
+  /* margin-bottom: -8px; */
   padding-bottom: 50px;
   justify-content:center;
+  
 }
 
 .portfolio-button-li {
@@ -321,6 +323,7 @@ header {
   background: #f5f4fa;
   text-align: center;
   border-radius: 4px;
+  margin-left: 8px;
 }
 
 .button2:hover {
@@ -354,8 +357,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-left: -30px;
-  margin-bottom: -30px;
+  /* margin-left: -30px;
+  margin-bottom: -30px; */
   justify-content: space-between;
 }
 
@@ -383,4 +386,5 @@ header {
   /* margin-left: 30px;
   margin-bottom: 30px; */
   background-color: #fff;
+  margin-top: 30px;
 }
